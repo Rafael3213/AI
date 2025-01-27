@@ -3,3 +3,19 @@ cat-filler/
 ├── cats_filler.py
 ├── cat.png
 └── requirements.txt
+pip install -r requirements.txt
+pip install pyinstaller
+pyinstaller --onefile --noconsole cats_filler.py
+
+#### `cats_filler.py`
+Use the script provided earlier.
+
+#### `cat.png`
+Include a sample cat image to use in the project.
+
+### 3. Initialize a Git Repository
+Run the following commands in the project directory:
+```bash
+git init
+git add .
+git commit -m "Initial commit: Cat Screen Filler"
